@@ -18,7 +18,7 @@ def latent_space_representation(grid_w, extent, model):
       x_pixel += 28
       y_pixel = 0
   fig, axes = plt.subplots(1, 1, figsize=(8, 8), dpi=100)
-  plt.imshow(final_img_grid, extent=[-20,20,-20,20], cmap='gnuplot2') # get current figure
+  plt.imshow(final_img_grid, extent=[extent[0],extent[1],extent[0],extent[1]], cmap='gnuplot2') # get current figure
   plt.title('VAE latent space representation', fontsize = 14)
   plt.xlabel('z dimension 1', fontsize = 14)
   plt.ylabel('z dimension 2', fontsize = 14)
