@@ -1,7 +1,11 @@
 # Variational Auto Encoder - PyTorch
 [PyTorch](https://github.com/pytorch/pytorch) Variationnal Auto Encoder implementation for educational purposes - with latent space representation.  
 Based on paper : https://arxiv.org/abs/1312.6114  
-Great ressource to dive deeper in the subject : https://arxiv.org/abs/1606.05908  
+Great ressources to dive deeper in the subject : 
+* https://arxiv.org/abs/1606.05908  
+* [VI, VAE and Helmholtz Machines](http://artem.sobolev.name/posts/2016-07-11-neural-variational-inference-variational-autoencoders-and-Helmholtz-machines.html)
+
+
 
 Implementation details :
 * Encoder network has 2 hidden layers of size 200 with ReLU activations
